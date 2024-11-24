@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background: #2b3a55;
+}
+
+#particleCanvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 0.8;
+}
+
+.content {
+    position: relative;
+    z-index: 2;
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px;
+}
